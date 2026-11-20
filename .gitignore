@@ -1,0 +1,6 @@
+__pycache__/
+.dqa_samples/
+evals/.work/
+run_log.json
+report.md
+.env
