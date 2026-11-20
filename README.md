@@ -74,3 +74,4 @@ To enable the FineWeb-Edu classifier: `pip install transformers torch`.
 - The language and content-type detectors are heuristics. A next step is a fastText language ID model and a proper code/chat classifier.
 - The LLM judge hasn't yet been validated against human grades. The plan is to hand-grade ~50 docs and measure agreement.
 - Samples come from a streamed shuffle buffer, not a uniform random sample of the full dataset.
+- The agent has been tested offline with a scripted model; live runs against Hugging Face are next.
