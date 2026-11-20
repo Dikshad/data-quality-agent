@@ -1,0 +1,9 @@
+anthropic>=0.40
+datasets>=3.0
+huggingface_hub>=0.25
+datasketch>=1.6
+langdetect>=1.0.9
+pytest>=8.0
+# Optional, for the FineWeb-Edu quality classifier (English web text):
+# transformers>=4.44
+# torch>=2.3
